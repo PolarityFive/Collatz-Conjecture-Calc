@@ -43,7 +43,7 @@ int log2_asm(const uint64_t& nX)
 {
 	int xx = nX;
 	__asm{
-		mov eax,xx
+		mov eax,xx;
 		bsr eax,eax;
 		mov xx,eax;
 	}
