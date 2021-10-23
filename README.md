@@ -9,7 +9,9 @@ Practically, it has been noticed that no matter the number, you always at some p
 
 On the programming side of things, creating an algorithm for such a concept, is an extremely simple task. 
 However, I did not find an efficient way anywhere so I created this one. 
+
 Task #1: Checking whether a number ends up at 1.
+
 Task #2: Counting the steps it takes to get there.
 
 In order to divide from any number directly  to an integer of 1, (meaning without encountering an odd number) the number divided must be a power of 2. 
