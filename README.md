@@ -18,3 +18,7 @@ In order to divide from any number directly  to an integer of 1, (meaning withou
 So, instead of applying the conjecture's rules every time until we reach 1, we can simply check first if the number is a power of 2. If it is, then we can definitely get to 1. No more calculations needed for task #1. The amount of steps it takes to get there equals current steps + log2 of the number we're currently at. (Number that's a power of 2.) Saving us a few more calculations. 
 
 In the name of efficiency, I used bit manipulation/operations. 
+
+Update - December 2025. 
+
+Came back here with actual experience now to optimize the solution. It's hilarious looking at my old code back then. 
